@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@iota/iota-sdk": "^1.9.0"
+  }
+}

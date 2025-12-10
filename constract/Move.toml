@@ -1,0 +1,10 @@
+[package]
+name = "stream_rent"
+version = "0.0.1"
+edition = "2024.beta" # <--- Kích hoạt tính năng mới
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "testnet" }
+
+[addresses]
+stream_rent = "0x0"
